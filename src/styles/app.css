@@ -214,3 +214,33 @@ body, html {
   position: relative;
   top: 3px;
 }
+
+@media (max-width: 500px) {
+  .logo {
+    display: none;
+  }
+
+  .alerts-active {
+    width: 100%;
+  }
+
+  .main h2 {
+    font-size: 26px;
+    margin-top: 20px;
+  }
+
+  .more-info {
+    max-width: 100%;
+    font-size: 14px
+  }
+
+  .alert-list {
+    top: calc(100vh - 62px);
+    position: relative;
+    width: 100%;
+  }
+
+  .alert-list.side-active {
+    width: 100%;
+  }
+}
